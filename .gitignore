@@ -1,0 +1,14 @@
+/.vscode
+/test.c
+/test.exe
+fullTriangle.exe
+halfTriangle.exe
+halfTriangleNumbers.exe
+hollowFullTriangle.exe
+hollowHalfTriangleNumbers.exe
+hollowInvertedHalfTriangle.exe
+hollowRectangle.exe
+invertedFullTriangle.exe
+invertedHalfTriangle.exe
+invertedHalfTriangleNumbers.exe
+solidRectangle.exe
