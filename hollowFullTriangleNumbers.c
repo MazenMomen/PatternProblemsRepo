@@ -4,7 +4,7 @@
 /* ****************** Includes section End   ****************** */
 
 /* ************** Global variables section Start ************** */
-int i, j, v, height;
+int i, j, height;
 /* ************** Global variables section End   ************** */
 
 /* ************* Global declaration section Start ************* */
@@ -21,14 +21,21 @@ int main() {
   scanf_s("%d", &height);
   for (i = 1; i <= height; i++) {
     for (j = i; j <= height; j++) {
-      printf("  ");
-    }
-    v = i;
-    for (j = 1; j < i; j++) {
-      printf("%d ", v++);
+      printf(" ");
     }
     for (j = 1; j <= i; j++) {
-      printf("%d ", v--);
+      if (i == height || j == 1) {
+        printf("%d ", j);
+      } else {
+        printf(" ");
+      }
+    }
+    for (j = 1; j < i; j++) {
+      if (j == i - 1 && i < height) {
+        printf("%d", i);
+      } else {
+        printf(" ");
+      }
     }
     printf("\n");
   }
