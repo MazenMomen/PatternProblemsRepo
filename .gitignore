@@ -15,3 +15,7 @@ solidRectangle.exe
 fullTriangleNumbers.exe
 hollowFullTriangleNumbers.exe
 hollowInvertedHalfTriangleNumbers.exe
+palindromeFullTriangleNumbers.exe
+palindromeHalfTriangleLetters.exe
+palindromeHalfTriangleNumbers.exe
+palindromeTriangleNumbersAndStars.exe
